@@ -159,7 +159,7 @@ body {
 	right: 20px;
 }
 .digits {
-	width: 210vw;
+	width: 210px;
 }
 #sketchpad {
 	background: white;
@@ -176,7 +176,7 @@ body {
 	background: grey;
 }
 .b{
-	padding: 30px;
+	padding: 5px;
 	width: 20px;
 	height: 20px;
 	color: black;
