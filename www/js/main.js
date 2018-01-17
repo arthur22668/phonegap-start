@@ -25,7 +25,7 @@ form.addEventListener("submit", e => {
 	} else {
 		life -= 1
 	}
-	
+
 	if (life <= 0) {
 		score.innerHTML = 0
 		life = 3
@@ -45,6 +45,9 @@ document.querySelector(".del").addEventListener("click", e => {
 document.querySelector(".dot").addEventListener("click", e => {
 	result.value += "."
 })
+document.querySelector(".min").addEventListener("click", e => {
+	result.value = parseInt(result.value) * -1;
+})
 buttons.forEach(el => {
 	el.addEventListener("click", e => {
 		el.parentElement.style.top = "-50%";
@@ -52,11 +55,3 @@ buttons.forEach(el => {
 		keyboard.style["z-index"] = 100
 	})
 })
-
-
-
-
-
-
-
-

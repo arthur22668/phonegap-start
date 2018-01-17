@@ -168,20 +168,40 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  flex-direction: column;
 	width: 100vw;
-	height: 280px;
+	/* height: 280px; */
 	position: fixed;
 	bottom: 0;
 	z-index: -100;
 	background: grey;
+}
+.keys {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .b{
 	padding: 5px;
 	width: 20px;
 	height: 20px;
 	color: black;
+  margin-right: 30px;
+  margin-left: 30px;
 }
-
+.min {
+  font-weight: 1000;
+  font-size: large;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
